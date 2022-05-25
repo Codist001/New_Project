@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:909px){
+    body{
+        background-color: #fff;
+    }
+    h1{
+        text-align: center;
+        color: #15b987;
+        margin-top: 30px;
+        font-family: 'Grape Nuts', cursive;
+    }
+
+    p{
+        text-align: center;
+        margin-top: 30px;
+        font-family: 'Roboto Flex', sans-serif;
+        font-weight: bold;
+    }
+
+    img{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-family: 'Roboto Flex', sans-serif;
+    }
+
+    .sign{
+        color: #fff;
+        background-color: #0f8370;
+        width: 80%;
+        border-radius: 50px;
+        padding: 10px;
+        margin-left: 40px;
+    }
+
+    .account{
+        color: #0f8370;
+        border: 1px solid #0f8370;
+        width: 80%;
+        padding: 10px;
+        border-radius: 50px;
+        margin-left: 40px;
+    }
+}
